@@ -1,0 +1,156 @@
+
+body {
+
+	background-color: rgb(150,150,150);
+	color: black;
+	font-family: 'Sail', cursive;
+    font-size: 20px
+
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Redressed', cursive; }
+
+
+h1 {
+    image-rendering: 500px;
+    color: black
+    font-weight: 900;
+
+    letter-spacing: 10px
+
+}
+
+h2 {
+    color: purple ;
+    font-size: 25px;
+}
+
+h3 {
+    color: purple;
+    font-size: 25px;
+}
+
+h4 {
+    color: purple;
+    font-size: 25px
+}
+
+h5 {
+    color: purple;
+    font-size: 25px
+
+}
+
+h6 {
+    color: purple;
+    font-size: 25px
+
+}
+
+h7 {
+    color: purple;
+    font-size: 25px
+}
+
+
+<div>
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+</div>
+
+/* Custom design with class (99% of your design) */
+.container {
+    width: 700px; /* set the width of your container */
+    margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba (0,0,0,0,1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-blue:hover {
+    background-color: black;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left:0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb (230, 230, 230);
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+/* disgn adjustments using id (1% design remaining) */
+#introduction p {
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 700px;
+    margin: 40 auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
